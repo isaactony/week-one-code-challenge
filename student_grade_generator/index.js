@@ -18,7 +18,7 @@ function calculateCoins() {
     final_grade  = "C";
   } else if (grade > 40 && grade <=50) {
     final_grade = "D";
-  } else if (grade > 40 && grade <= 0) {
+  } else if (grade < 40 && grade >= 0) {
     final_grade = "E"
   } else {
     final_grade = "Enter Valid Marks";
